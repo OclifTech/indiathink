@@ -2,7 +2,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 // importing google fonts 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 
 .dropdown:hover .dropdown-menu {
@@ -13,8 +17,6 @@
 .dropdown:hover {
     background: #415498;
     border-radius: 9px;
- 
-   
+
+
 }
-
-
