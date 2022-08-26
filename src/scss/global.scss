@@ -1,2 +1,20 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+// importing google fonts 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+}
+
+.dropdown:hover {
+    background: #415498;
+    border-radius: 9px;
+ 
+   
+}
+
+
